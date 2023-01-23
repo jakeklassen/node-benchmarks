@@ -1,0 +1,22 @@
+{
+  "name": "benchmarks",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jake Klassen",
+  "license": "ISC",
+  "dependencies": {
+    "@thi.ng/bench": "^3.1.23",
+    "benchmark": "^2.1.4",
+    "just-random-integer": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^2.1.2",
+    "@types/node": "^18.11.18",
+    "prettier": "^2.8.3"
+  }
+}
