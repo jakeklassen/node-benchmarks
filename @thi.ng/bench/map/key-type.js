@@ -28,12 +28,12 @@ suite(
   [
     {
       title: "entities by id",
-      fn: () => iterateById(),
+      fn: iterateById,
     },
 
     {
       title: "entities by object",
-      fn: () => iterateByObject(),
+      fn: iterateByObject,
     },
   ],
   { iter: 10, size: 100, warmup: 5, format: FORMAT_DEFAULT },

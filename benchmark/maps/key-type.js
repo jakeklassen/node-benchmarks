@@ -12,19 +12,23 @@ const entities = [...Array(100_000).keys()].map((x) => ({
 const entitiesById = new Map(entities.map((x) => [x.id, x]));
 const entityMap = new Map(entities.map((x) => [x, x]));
 
+const iterateById = () => {
+  for (const entity of entities) {
+    entitiesById.get(entity.id);
+  }
+};
+
+const iterateByObject = () => {
+  for (const entity of entities) {
+    entityMap.get(entity);
+  }
+};
+
 const suite = new Benchmark.Suite();
 
 suite
-  .add("for const of entities by id", () => {
-    for (const entity of entities) {
-      entitiesById.get(entity.id);
-    }
-  })
-  .add("for const of entities by object", () => {
-    for (const entity of entities) {
-      entityMap.get(entity);
-    }
-  })
+  .add("for const of entities by id", iterateById)
+  .add("for const of entities by object", iterateByObject)
   .on("cycle", (/** @type {import('benchmark').Event} */ event) => {
     console.log(String(event.target));
   })
