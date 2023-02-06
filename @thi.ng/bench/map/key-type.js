@@ -27,12 +27,12 @@ const iterateByObject = () => {
 suite(
   [
     {
-      title: "entities by id",
+      title: "for const of Map<number, Entity>",
       fn: iterateById,
     },
 
     {
-      title: "entities by object",
+      title: "for const of Map<Entity, Entity>",
       fn: iterateByObject,
     },
   ],

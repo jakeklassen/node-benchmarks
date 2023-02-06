@@ -27,8 +27,8 @@ const iterateByObject = () => {
 const suite = new Benchmark.Suite();
 
 suite
-  .add("for const of entities by id", iterateById)
-  .add("for const of entities by object", iterateByObject)
+  .add("for const of Map<number, Entity>", iterateById)
+  .add("for const of Map<Entity, Entity>", iterateByObject)
   .on("cycle", (/** @type {import('benchmark').Event} */ event) => {
     console.log(String(event.target));
   })
