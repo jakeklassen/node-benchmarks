@@ -10,7 +10,7 @@
   "author": "Jake Klassen",
   "license": "ISC",
   "dependencies": {
-    "@thi.ng/bench": "^3.2.0",
+    "@thi.ng/bench": "^3.2.2",
     "benchmark": "^2.1.4",
     "just-random-integer": "^4.2.0"
   },

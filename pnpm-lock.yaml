@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@thi.ng/bench': ^3.2.0
+  '@thi.ng/bench': ^3.2.2
   '@types/benchmark': ^2.1.2
   '@types/node': ^18.13.0
   benchmark: ^2.1.4
@@ -9,7 +9,7 @@ specifiers:
   prettier: ^2.8.4
 
 dependencies:
-  '@thi.ng/bench': 3.2.0
+  '@thi.ng/bench': 3.2.2
   benchmark: 2.1.4
   just-random-integer: 4.2.0
 
@@ -20,16 +20,16 @@ devDependencies:
 
 packages:
 
-  /@thi.ng/api/8.7.0:
-    resolution: {integrity: sha512-hPjoyZv8sGLcgvfqRuXxMEzMCia9CGpPEdZp+/wD5JAghdtXtuGwW+aR8lj3Xli9i5fQHG64PDkz602MZ/sZeA==}
+  /@thi.ng/api/8.7.2:
+    resolution: {integrity: sha512-DyzLbm0Wk8/R9EyStXTyPBlfHum2SmYcs0RnClmwhxqX0fg2rkqLOBg10t4YiskEND0qTUuSLyTaS37RVvybew==}
     engines: {node: '>=12.7'}
     dev: false
 
-  /@thi.ng/bench/3.2.0:
-    resolution: {integrity: sha512-tO6B1EO6or6H+GCrAbNU+1/lIETw0XK9S7oGsnpjeBWss4ZspA7ongA73nSkT+KTOM0253t21qd9vVz33mZfag==}
+  /@thi.ng/bench/3.2.2:
+    resolution: {integrity: sha512-1xLOSBed4SWJNqCwH1TT0jQ4oFmB+rk+QLNiLsUElf5jL/CKnx6m2Y+9Wh0TXCo0O5dKJqENB58nG7wuzfmOyg==}
     engines: {node: '>=12.7'}
     dependencies:
-      '@thi.ng/api': 8.7.0
+      '@thi.ng/api': 8.7.2
     dev: false
 
   /@types/benchmark/2.1.2:
