@@ -10,13 +10,13 @@
   "author": "Jake Klassen",
   "license": "ISC",
   "dependencies": {
-    "@thi.ng/bench": "^3.2.4",
+    "@thi.ng/bench": "^3.2.6",
     "benchmark": "^2.1.4",
     "just-random-integer": "^4.2.0"
   },
   "devDependencies": {
     "@types/benchmark": "^2.1.2",
-    "@types/node": "^18.14.2",
+    "@types/node": "^18.15.1",
     "prettier": "^2.8.4"
   }
 }
