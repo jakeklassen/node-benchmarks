@@ -1,43 +1,43 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@thi.ng/bench': ^3.2.6
+  '@thi.ng/bench': ^3.2.7
   '@types/benchmark': ^2.1.2
-  '@types/node': ^18.15.1
+  '@types/node': ^18.15.3
   benchmark: ^2.1.4
   just-random-integer: ^4.2.0
   prettier: ^2.8.4
 
 dependencies:
-  '@thi.ng/bench': 3.2.6
+  '@thi.ng/bench': 3.2.7
   benchmark: 2.1.4
   just-random-integer: 4.2.0
 
 devDependencies:
   '@types/benchmark': 2.1.2
-  '@types/node': 18.15.1
+  '@types/node': 18.15.3
   prettier: 2.8.4
 
 packages:
 
-  /@thi.ng/api/8.7.3:
-    resolution: {integrity: sha512-7SFCWuf4G3E7ymGdIKjdcx00esKWTU701VFknP0FQxDniJrG+tGuPxVg0TkliFQsD0Us2fuS67U547bhZPL3GQ==}
+  /@thi.ng/api/8.7.4:
+    resolution: {integrity: sha512-B9i53bMUi4OVywlLI8d7TOV7D8gESxxP1QhZkIbjHS3oERToxZp7NIbn3/gy08MK0W62NI6wOe1y2CdZdiCk5A==}
     engines: {node: '>=12.7'}
     dev: false
 
-  /@thi.ng/bench/3.2.6:
-    resolution: {integrity: sha512-VQKIfRwjDZiKqO+f//ihgXZmM1jWEeqewKjIcKtCTNkFt9/y+Ud5Sl8wVs/3ardZiTiCW5bX7sopJgZT3u5KMQ==}
+  /@thi.ng/bench/3.2.7:
+    resolution: {integrity: sha512-d5wyd2jHEaPRhcj0dTAUKCpTU2aWPCYVsdEb+fIi1jd3iARZU9uwCzS+T9KsbpYBwfKeoJLBEBVR6iIRWW7B3Q==}
     engines: {node: '>=12.7'}
     dependencies:
-      '@thi.ng/api': 8.7.3
+      '@thi.ng/api': 8.7.4
     dev: false
 
   /@types/benchmark/2.1.2:
     resolution: {integrity: sha512-EDKtLYNMKrig22jEvhXq8TBFyFgVNSPmDF2b9UzJ7+eylPqdZVo17PCUMkn1jP6/1A/0u78VqYC6VrX6b8pDWA==}
     dev: true
 
-  /@types/node/18.15.1:
-    resolution: {integrity: sha512-U2TWca8AeHSmbpi314QBESRk7oPjSZjDsR+c+H4ECC1l+kFgpZf8Ydhv3SJpPy51VyZHHqxlb6mTTqYNNRVAIw==}
+  /@types/node/18.15.3:
+    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
     dev: true
 
   /benchmark/2.1.4:
