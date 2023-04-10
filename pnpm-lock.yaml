@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@thi.ng/bench':
-    specifier: ^3.2.8
-    version: 3.2.8
+    specifier: ^3.2.9
+    version: 3.2.9
   benchmark:
     specifier: ^2.1.4
     version: 2.1.4
@@ -24,16 +24,16 @@ devDependencies:
 
 packages:
 
-  /@thi.ng/api@8.7.5:
-    resolution: {integrity: sha512-iDzpWz4bMInlrWubZH3dcnhjtkZ2OO3GQZIQtWvSn4GC2ct4mVZdw7JXqfp4lQCOYl3cW01RFVaXPGUMXIZ0UA==}
+  /@thi.ng/api@8.7.6:
+    resolution: {integrity: sha512-Uo+8Pn+fZaZd2tmxbwxgZC1WHeiIZ2SA0Q0u33be/cJwmlkSZi6Mmj6HSi55leeGcHJ5P6n7f+Bx91zSPNkP9w==}
     engines: {node: '>=12.7'}
     dev: false
 
-  /@thi.ng/bench@3.2.8:
-    resolution: {integrity: sha512-Tvqw3pZ1E49D/e0zTsFIiP8L6kN3hGeIhP70TNXbKL/drWQtV59a4ytFrtuAHg8AEh2y34fcp5xeuyNaY+LGhQ==}
+  /@thi.ng/bench@3.2.9:
+    resolution: {integrity: sha512-DxuxHHexbY2ArpWBrm6ddXztyEM8JGC6QI/u38GyvdzqGgK9+M2zkP7e1vPnYg0SgOT/t2M7UqygCzo0OPfTyA==}
     engines: {node: '>=12.7'}
     dependencies:
-      '@thi.ng/api': 8.7.5
+      '@thi.ng/api': 8.7.6
     dev: false
 
   /@types/benchmark@2.1.2:
