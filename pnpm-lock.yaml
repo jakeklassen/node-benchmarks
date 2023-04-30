@@ -16,11 +16,11 @@ devDependencies:
     specifier: ^2.1.2
     version: 2.1.2
   '@types/node':
-    specifier: ^18.15.13
-    version: 18.15.13
+    specifier: ^18.16.3
+    version: 18.16.3
   prettier:
-    specifier: ^2.8.7
-    version: 2.8.7
+    specifier: ^2.8.8
+    version: 2.8.8
 
 packages:
 
@@ -40,8 +40,8 @@ packages:
     resolution: {integrity: sha512-EDKtLYNMKrig22jEvhXq8TBFyFgVNSPmDF2b9UzJ7+eylPqdZVo17PCUMkn1jP6/1A/0u78VqYC6VrX6b8pDWA==}
     dev: true
 
-  /@types/node@18.15.13:
-    resolution: {integrity: sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==}
+  /@types/node@18.16.3:
+    resolution: {integrity: sha512-OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==}
     dev: true
 
   /benchmark@2.1.4:
@@ -63,8 +63,8 @@ packages:
     resolution: {integrity: sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==}
     dev: false
 
-  /prettier@2.8.7:
-    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
+  /prettier@2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
