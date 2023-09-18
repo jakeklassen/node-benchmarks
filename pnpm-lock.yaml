@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@thi.ng/bench':
-    specifier: ^3.2.11
-    version: 3.2.11
+    specifier: ^3.4.6
+    version: 3.4.6
   benchmark:
     specifier: ^2.1.4
     version: 2.1.4
@@ -17,35 +17,35 @@ dependencies:
 
 devDependencies:
   '@types/benchmark':
-    specifier: ^2.1.2
-    version: 2.1.2
+    specifier: ^2.1.3
+    version: 2.1.3
   '@types/node':
-    specifier: ^20.2.5
-    version: 20.2.5
+    specifier: ^20.6.2
+    version: 20.6.2
   prettier:
-    specifier: ^2.8.8
-    version: 2.8.8
+    specifier: ^3.0.3
+    version: 3.0.3
 
 packages:
 
-  /@thi.ng/api@8.8.1:
-    resolution: {integrity: sha512-ugTtl3dvOuRsLAF9hZcd/ULBXDG0cAacEQ26jRY00JEEwdy24WR1DOO4iL2mHei0vm2HyvfJ8IlJoRR7mSSqUA==}
+  /@thi.ng/api@8.9.5:
+    resolution: {integrity: sha512-8rh1FypiQHzF/pDWqvvlRfRdr78nZe9n3HxbL5Swx9gFDfkU/ZIavW+8uLk8uZFAwnlkMnCOBeVsZEtIsqrVLw==}
     engines: {node: '>=12.7'}
     dev: false
 
-  /@thi.ng/bench@3.2.11:
-    resolution: {integrity: sha512-1SSCfwbIXJ9KUIjAaLZEmKSC5OCQf5hDpmzLXlhDFr1SlOaBYXgtu+k8GrSRqmu2kezTV0u23nfW7LSJ5YX2ZA==}
+  /@thi.ng/bench@3.4.6:
+    resolution: {integrity: sha512-/t6sMdsLP/yxuG1R8bnFVYUz9q3yph/hRJ4UhoAsOjO2vM30ovx/Zn3efR7PyuQtn53BNmPehJcasEj85GdwQQ==}
     engines: {node: '>=12.7'}
     dependencies:
-      '@thi.ng/api': 8.8.1
+      '@thi.ng/api': 8.9.5
     dev: false
 
-  /@types/benchmark@2.1.2:
-    resolution: {integrity: sha512-EDKtLYNMKrig22jEvhXq8TBFyFgVNSPmDF2b9UzJ7+eylPqdZVo17PCUMkn1jP6/1A/0u78VqYC6VrX6b8pDWA==}
+  /@types/benchmark@2.1.3:
+    resolution: {integrity: sha512-psuUawgwIy/hSjO4AUDiPBJhJx72e3cBL+YzmVK/5ofRJC02R0NmvrSenGRuSmJc++0j95y2T01xKKNz50FGZw==}
     dev: true
 
-  /@types/node@20.2.5:
-    resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==}
+  /@types/node@20.6.2:
+    resolution: {integrity: sha512-Y+/1vGBHV/cYk6OI1Na/LHzwnlNCAfU3ZNGrc1LdRe/LAIbdDPTTv/HU3M7yXN448aTVDq3eKRm2cg7iKLb8gw==}
     dev: true
 
   /benchmark@2.1.4:
@@ -67,8 +67,8 @@ packages:
     resolution: {integrity: sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==}
     dev: false
 
-  /prettier@2.8.8:
-    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
