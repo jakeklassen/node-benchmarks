@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^2.1.3
     version: 2.1.3
   '@types/node':
-    specifier: ^20.6.2
-    version: 20.6.2
+    specifier: ^20.7.1
+    version: 20.7.1
   prettier:
     specifier: ^3.0.3
     version: 3.0.3
@@ -44,8 +44,8 @@ packages:
     resolution: {integrity: sha512-psuUawgwIy/hSjO4AUDiPBJhJx72e3cBL+YzmVK/5ofRJC02R0NmvrSenGRuSmJc++0j95y2T01xKKNz50FGZw==}
     dev: true
 
-  /@types/node@20.6.2:
-    resolution: {integrity: sha512-Y+/1vGBHV/cYk6OI1Na/LHzwnlNCAfU3ZNGrc1LdRe/LAIbdDPTTv/HU3M7yXN448aTVDq3eKRm2cg7iKLb8gw==}
+  /@types/node@20.7.1:
+    resolution: {integrity: sha512-LT+OIXpp2kj4E2S/p91BMe+VgGX2+lfO+XTpfXhh+bCk2LkQtHZSub8ewFBMGP5ClysPjTDFa4sMI8Q3n4T0wg==}
     dev: true
 
   /benchmark@2.1.4:
