@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@thi.ng/bench':
-    specifier: ^3.4.6
-    version: 3.4.6
+    specifier: ^3.4.7
+    version: 3.4.7
   benchmark:
     specifier: ^2.1.4
     version: 2.1.4
@@ -17,35 +17,37 @@ dependencies:
 
 devDependencies:
   '@types/benchmark':
-    specifier: ^2.1.3
-    version: 2.1.3
+    specifier: ^2.1.4
+    version: 2.1.4
   '@types/node':
-    specifier: ^20.7.1
-    version: 20.7.1
+    specifier: ^20.8.8
+    version: 20.8.8
   prettier:
     specifier: ^3.0.3
     version: 3.0.3
 
 packages:
 
-  /@thi.ng/api@8.9.5:
-    resolution: {integrity: sha512-8rh1FypiQHzF/pDWqvvlRfRdr78nZe9n3HxbL5Swx9gFDfkU/ZIavW+8uLk8uZFAwnlkMnCOBeVsZEtIsqrVLw==}
+  /@thi.ng/api@8.9.6:
+    resolution: {integrity: sha512-9m+FS3klc3/3ehEy9FuLJdPI81rBWNxkAa24xiclNU7pShHyrSOdbiwFeKiVAFcLYW+fLhRomFEnTm80nncNuw==}
     engines: {node: '>=12.7'}
     dev: false
 
-  /@thi.ng/bench@3.4.6:
-    resolution: {integrity: sha512-/t6sMdsLP/yxuG1R8bnFVYUz9q3yph/hRJ4UhoAsOjO2vM30ovx/Zn3efR7PyuQtn53BNmPehJcasEj85GdwQQ==}
+  /@thi.ng/bench@3.4.7:
+    resolution: {integrity: sha512-KzOpjbYU/v1fc1wrXUMSnlXr+j5nJbMpMupUA42M1tPmyo6IU9eLofdF67MHlKxTItA6PDPInznGsWX3iJm0PA==}
     engines: {node: '>=12.7'}
     dependencies:
-      '@thi.ng/api': 8.9.5
+      '@thi.ng/api': 8.9.6
     dev: false
 
-  /@types/benchmark@2.1.3:
-    resolution: {integrity: sha512-psuUawgwIy/hSjO4AUDiPBJhJx72e3cBL+YzmVK/5ofRJC02R0NmvrSenGRuSmJc++0j95y2T01xKKNz50FGZw==}
+  /@types/benchmark@2.1.4:
+    resolution: {integrity: sha512-rVCCileCU5NhP9Ix1e03sIn4gd0mpjh7VNULVQAxzF+9vddk6A5QAHzp2h5kXH8pkv1Ow45fUf3QP3wOEiISvA==}
     dev: true
 
-  /@types/node@20.7.1:
-    resolution: {integrity: sha512-LT+OIXpp2kj4E2S/p91BMe+VgGX2+lfO+XTpfXhh+bCk2LkQtHZSub8ewFBMGP5ClysPjTDFa4sMI8Q3n4T0wg==}
+  /@types/node@20.8.8:
+    resolution: {integrity: sha512-YRsdVxq6OaLfmR9Hy816IMp33xOBjfyOgUd77ehqg96CFywxAPbDbXvAsuN2KVg2HOT8Eh6uAfU+l4WffwPVrQ==}
+    dependencies:
+      undici-types: 5.25.3
     dev: true
 
   /benchmark@2.1.4:
@@ -71,4 +73,8 @@ packages:
     resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
+    dev: true
+
+  /undici-types@5.25.3:
+    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
     dev: true
