@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@thi.ng/bench':
-    specifier: ^3.4.7
-    version: 3.4.7
+    specifier: ^3.5.1
+    version: 3.5.1
   benchmark:
     specifier: ^2.1.4
     version: 2.1.4
@@ -17,37 +17,37 @@ dependencies:
 
 devDependencies:
   '@types/benchmark':
-    specifier: ^2.1.4
-    version: 2.1.4
+    specifier: ^2.1.5
+    version: 2.1.5
   '@types/node':
-    specifier: ^20.8.8
-    version: 20.8.8
+    specifier: ^20.11.30
+    version: 20.11.30
   prettier:
-    specifier: ^3.0.3
-    version: 3.0.3
+    specifier: ^3.2.5
+    version: 3.2.5
 
 packages:
 
-  /@thi.ng/api@8.9.6:
-    resolution: {integrity: sha512-9m+FS3klc3/3ehEy9FuLJdPI81rBWNxkAa24xiclNU7pShHyrSOdbiwFeKiVAFcLYW+fLhRomFEnTm80nncNuw==}
-    engines: {node: '>=12.7'}
+  /@thi.ng/api@8.9.31:
+    resolution: {integrity: sha512-YuodNQ4TnxV8OIa8xiF9JQ+vBam16W3Z9EbTAAgX/VlQUQ7NEVBbFO8eNGcpyrfOoWdSX4b9JcPbAXuB1dfg1g==}
+    engines: {node: '>=18'}
     dev: false
 
-  /@thi.ng/bench@3.4.7:
-    resolution: {integrity: sha512-KzOpjbYU/v1fc1wrXUMSnlXr+j5nJbMpMupUA42M1tPmyo6IU9eLofdF67MHlKxTItA6PDPInznGsWX3iJm0PA==}
-    engines: {node: '>=12.7'}
+  /@thi.ng/bench@3.5.1:
+    resolution: {integrity: sha512-ekueeRFmWdXiCB9vnZxzOXKJ9s6ol3injV79hHZXrL+XqjPiP9VyX4fnVvQ/vTCzR27+wYM8fbz3S1veUEF84w==}
+    engines: {node: '>=18'}
     dependencies:
-      '@thi.ng/api': 8.9.6
+      '@thi.ng/api': 8.9.31
     dev: false
 
-  /@types/benchmark@2.1.4:
-    resolution: {integrity: sha512-rVCCileCU5NhP9Ix1e03sIn4gd0mpjh7VNULVQAxzF+9vddk6A5QAHzp2h5kXH8pkv1Ow45fUf3QP3wOEiISvA==}
+  /@types/benchmark@2.1.5:
+    resolution: {integrity: sha512-cKio2eFB3v7qmKcvIHLUMw/dIx/8bhWPuzpzRT4unCPRTD8VdA9Zb0afxpcxOqR4PixRS7yT42FqGS8BYL8g1w==}
     dev: true
 
-  /@types/node@20.8.8:
-    resolution: {integrity: sha512-YRsdVxq6OaLfmR9Hy816IMp33xOBjfyOgUd77ehqg96CFywxAPbDbXvAsuN2KVg2HOT8Eh6uAfU+l4WffwPVrQ==}
+  /@types/node@20.11.30:
+    resolution: {integrity: sha512-dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==}
     dependencies:
-      undici-types: 5.25.3
+      undici-types: 5.26.5
     dev: true
 
   /benchmark@2.1.4:
@@ -69,12 +69,12 @@ packages:
     resolution: {integrity: sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==}
     dev: false
 
-  /prettier@3.0.3:
-    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
 
-  /undici-types@5.25.3:
-    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
