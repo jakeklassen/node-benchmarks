@@ -30,8 +30,8 @@ importers:
         specifier: ^2.17.0
         version: 2.17.0
       tinybench:
-        specifier: ^3.0.3
-        version: 3.0.3
+        specifier: ^3.0.4
+        version: 3.0.4
     devDependencies:
       '@types/benchmark':
         specifier: ^2.1.5
@@ -98,8 +98,8 @@ packages:
   remeda@2.17.0:
     resolution: {integrity: sha512-mBsn4rGLSE788XqzOlePZiXUFNCrLIBVFl1ntzjBq8NqdsLZUQydxQ2naqNr13eBEDoictYLqKlwzhFTxgfydA==}
 
-  tinybench@3.0.3:
-    resolution: {integrity: sha512-uJx7Wn5Dp5qd2TBbbixMaFSxod6HvJxhA7rb55BJD27Gcsz+zoHRA/Gk8pBl91GiWbKtoGqU02XS8GOVJhe1KA==}
+  tinybench@3.0.4:
+    resolution: {integrity: sha512-JMCuHaSJh6i1/8RMgZiRhA2KY/SiwnCxxGmoRz7onx69vDlh9YkbBFoi37WOssH+EccktzXYacTUtmIfdSqFTw==}
     engines: {node: '>=18.0.0'}
 
   type-fest@4.26.1:
@@ -152,7 +152,7 @@ snapshots:
     dependencies:
       type-fest: 4.26.1
 
-  tinybench@3.0.3: {}
+  tinybench@3.0.4: {}
 
   type-fest@4.26.1: {}
 
