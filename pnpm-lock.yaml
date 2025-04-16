@@ -12,14 +12,14 @@ importers:
         specifier: ^9.7.0
         version: 9.7.0
       '@thi.ng/bench':
-        specifier: ^3.6.18
-        version: 3.6.18
+        specifier: ^3.6.19
+        version: 3.6.19
       benchmark:
         specifier: ^2.1.4
         version: 2.1.4
       es-toolkit:
-        specifier: ^1.34.1
-        version: 1.34.1
+        specifier: ^1.35.0
+        version: 1.35.0
       just-random-integer:
         specifier: ^4.2.0
         version: 4.2.0
@@ -58,16 +58,16 @@ packages:
     resolution: {integrity: sha512-aozo5vqjCmDoXLNUJarFZx2IN/GgGaogY4TMJ6so/WLZOWpSV7fvj2dmrV6sEAnUm1O7aCrhTibjpzeDFgNqbg==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
 
-  '@thi.ng/api@8.11.25':
-    resolution: {integrity: sha512-b8nkGUqTYujwmGpQ44XY5+CdaP+3pRI9P0lpvqfzayVpmKTi6wkYsDcWf847zlk1yx3cMl6vzbQB9X1zNhg7dQ==}
+  '@thi.ng/api@8.11.26':
+    resolution: {integrity: sha512-QAPbK1NpLGryMIRqHuj5ka4R3F+FtlB/S8N/80olB3yNbY240NSyx/P6aqjMFo9fs/SQ80dnV8mYAC84bGtBBQ==}
     engines: {node: '>=18'}
 
-  '@thi.ng/bench@3.6.18':
-    resolution: {integrity: sha512-ZIX/3zmuF6K8vRpW32TyrVsxCsesbeNtSrSoqyWrNUv55Z5kDCREdYuY3IYLKrKoleeYGaDzEEwRbR+lh+ZQuQ==}
+  '@thi.ng/bench@3.6.19':
+    resolution: {integrity: sha512-mBOKfY5DSVcJmKDGt/z5Ha9D2cY8LuwL2HUpv93RQviKMyQnxWEmbMwIPqKNQA28LznE0qjt57AGMobzC5MdOg==}
     engines: {node: '>=18'}
 
-  '@thi.ng/timestamp@1.1.10':
-    resolution: {integrity: sha512-SaZ9VLdNAOZ+8u5dAgGW+Rrm7vVa4LxgcCo5F1yqjR1cPzkl+Qgj9I+cro0Gt2Ln52rVyQvTwLD3jDTq5MWZnA==}
+  '@thi.ng/timestamp@1.1.11':
+    resolution: {integrity: sha512-sAMG1f6acCmiEO2hUeVpoTPWCqv7i/2LgZmMNECpaYytvP9piqtL+pEz9jSCJDbQoasGnODZUXj+TosWstbw4A==}
     engines: {node: '>=18'}
 
   '@types/benchmark@2.1.5':
@@ -85,8 +85,8 @@ packages:
   benchmark@2.1.4:
     resolution: {integrity: sha1-CfPeMckWQl1JjMLuVloOvzwqVik=}
 
-  es-toolkit@1.34.1:
-    resolution: {integrity: sha512-OA6cd94fJV9bm8dWhIySkWq4xV+rAQnBZUr2dnpXam0QJ8c+hurLbKA8/QooL9Mx4WCAxvIDsiEkid5KPQ5xgQ==}
+  es-toolkit@1.35.0:
+    resolution: {integrity: sha512-kVHyrRoC0eLc1hWJ6npG8nNFtOG+nWfcMI+XE0RaFO0gxd6Ions8r0O/U64QyZgY7IeidUnS5oZlRZYUgMGCAg==}
 
   just-random-integer@4.2.0:
     resolution: {integrity: sha512-MfabwcY+RQNCVCmZZkTYDpk/AT315+7Rkoj59+abzYxgUOiSdoZ4G5hbK/4VZqdHScu95Wnd+1MqxyUETM6xuQ==}
@@ -130,14 +130,14 @@ snapshots:
 
   '@faker-js/faker@9.7.0': {}
 
-  '@thi.ng/api@8.11.25': {}
+  '@thi.ng/api@8.11.26': {}
 
-  '@thi.ng/bench@3.6.18':
+  '@thi.ng/bench@3.6.19':
     dependencies:
-      '@thi.ng/api': 8.11.25
-      '@thi.ng/timestamp': 1.1.10
+      '@thi.ng/api': 8.11.26
+      '@thi.ng/timestamp': 1.1.11
 
-  '@thi.ng/timestamp@1.1.10': {}
+  '@thi.ng/timestamp@1.1.11': {}
 
   '@types/benchmark@2.1.5': {}
 
@@ -156,7 +156,7 @@ snapshots:
       lodash: 4.17.21
       platform: 1.3.6
 
-  es-toolkit@1.34.1: {}
+  es-toolkit@1.35.0: {}
 
   just-random-integer@4.2.0: {}
 
