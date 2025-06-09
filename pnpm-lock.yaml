@@ -12,8 +12,8 @@ importers:
         specifier: ^9.8.0
         version: 9.8.0
       '@thi.ng/bench':
-        specifier: ^3.6.21
-        version: 3.6.21
+        specifier: ^3.6.22
+        version: 3.6.22
       arktype:
         specifier: ^2.1.20
         version: 2.1.20
@@ -21,8 +21,8 @@ importers:
         specifier: ^2.1.4
         version: 2.1.4
       es-toolkit:
-        specifier: ^1.39.1
-        version: 1.39.1
+        specifier: ^1.39.3
+        version: 1.39.3
       just-random-integer:
         specifier: ^4.2.0
         version: 4.2.0
@@ -36,8 +36,8 @@ importers:
         specifier: ^12.1.0
         version: 12.1.0
       remeda:
-        specifier: ^2.22.6
-        version: 2.22.6
+        specifier: ^2.23.0
+        version: 2.23.0
       tinybench:
         specifier: ^4.0.1
         version: 4.0.1
@@ -70,16 +70,16 @@ packages:
     resolution: {integrity: sha512-U9wpuSrJC93jZBxx/Qq2wPjCuYISBueyVUGK7qqdmj7r/nxaxwW8AQDCLeRO7wZnjj94sh3p246cAYjUKuqgfg==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
 
-  '@thi.ng/api@8.11.28':
-    resolution: {integrity: sha512-8q7iBaQXWKy3JmWWGpMqdOhRAZvY0g91I0WekyZOChvUj7xB/W+WdbE4qWDNg1z2T/ail8smRUHKWWm8P6mH6Q==}
+  '@thi.ng/api@8.11.29':
+    resolution: {integrity: sha512-1/wPuK7z0aqWynsGmnBA4bjPXbyid+/dO2pJ9J+KzqgnesNqIjVQ2iF7mLq+P7OTiShn8aCVKVErqBGcveZOvQ==}
     engines: {node: '>=18'}
 
-  '@thi.ng/bench@3.6.21':
-    resolution: {integrity: sha512-Ln70hv2hGsrAZQKnvTTfLSgqvv6B8UYEBoTAa9Im/wzRCUyXK25oDcsPakNHZsrtn6cnZr80B0/8zeZPqSrLpA==}
+  '@thi.ng/bench@3.6.22':
+    resolution: {integrity: sha512-uWyy0QomxvYzzMHpL2aFz8UpWsMDRa9ymWmSlb8jr2ZYPurWaamQJibvk992Tr3eNMMVuz/QFmUVfXHTilWqzQ==}
     engines: {node: '>=18'}
 
-  '@thi.ng/timestamp@1.1.13':
-    resolution: {integrity: sha512-Uyu181JWzZdFVE0T6CgkOHbHG0fs4ZnJiNo7ETclVdq4IVEOAK3HoxKwR8xR8S8RMBYuuU2r7ek8Fh+F4efO2Q==}
+  '@thi.ng/timestamp@1.1.14':
+    resolution: {integrity: sha512-nTlHA3eWaQ8HioAP9g4Q9CHDjN5MhLipCysXB6cHKT8OLBz3NFCwC8Djq0fRgLeoUyjELHS8Y+BXsg5uJMfSbA==}
     engines: {node: '>=18'}
 
   '@types/benchmark@2.1.5':
@@ -103,8 +103,8 @@ packages:
   benchmark@2.1.4:
     resolution: {integrity: sha1-CfPeMckWQl1JjMLuVloOvzwqVik=}
 
-  es-toolkit@1.39.1:
-    resolution: {integrity: sha512-cJNIXXx861Brn2GaXourDn5h3WRjYVc5hHKBLve8r0vP9TFeyPCiNgJFLn30HiJyCK4lUyjDhBELBwZG1tgZ0A==}
+  es-toolkit@1.39.3:
+    resolution: {integrity: sha512-Qb/TCFCldgOy8lZ5uC7nLGdqJwSabkQiYQShmw4jyiPk1pZzaYWTwaYKYP7EgLccWYgZocMrtItrwh683voaww==}
 
   just-random-integer@4.2.0:
     resolution: {integrity: sha512-MfabwcY+RQNCVCmZZkTYDpk/AT315+7Rkoj59+abzYxgUOiSdoZ4G5hbK/4VZqdHScu95Wnd+1MqxyUETM6xuQ==}
@@ -130,8 +130,8 @@ packages:
     resolution: {integrity: sha512-b0Zcf09AhqKS83btmUeYBS8tFK7XL2e3RvLmZcm0sTdF1/UUlHSsjXdCcWNxe7yfmAlPve5ym0DmKGtTzP6kVQ==}
     engines: {node: '>=14.18.0'}
 
-  remeda@2.22.6:
-    resolution: {integrity: sha512-Uc5x8dYtojNXcaPRdJ+nr5NHoM5yEYMBRALy405176+eNCqzsCa6OqYZ7ZK+ZeCdbW3t5Rdu6kjBBElaB/B0YQ==}
+  remeda@2.23.0:
+    resolution: {integrity: sha512-0mPy6q4ZMkAyrmucV6U6RaQ4GaJ7PLy9kTCNzC4k99DY6kQZXQIU8lxUVV4ocCWcjPvl7PSpOa42oPJWQiGouA==}
 
   tinybench@4.0.1:
     resolution: {integrity: sha512-Nb1srn7dvzkVx0J5h1vq8f48e3TIcbrS7e/UfAI/cDSef/n8yLh4zsAEsFkfpw6auTY+ZaspEvam/xs8nMnotQ==}
@@ -157,14 +157,14 @@ snapshots:
 
   '@faker-js/faker@9.8.0': {}
 
-  '@thi.ng/api@8.11.28': {}
+  '@thi.ng/api@8.11.29': {}
 
-  '@thi.ng/bench@3.6.21':
+  '@thi.ng/bench@3.6.22':
     dependencies:
-      '@thi.ng/api': 8.11.28
-      '@thi.ng/timestamp': 1.1.13
+      '@thi.ng/api': 8.11.29
+      '@thi.ng/timestamp': 1.1.14
 
-  '@thi.ng/timestamp@1.1.13': {}
+  '@thi.ng/timestamp@1.1.14': {}
 
   '@types/benchmark@2.1.5': {}
 
@@ -190,7 +190,7 @@ snapshots:
       lodash: 4.17.21
       platform: 1.3.6
 
-  es-toolkit@1.39.1: {}
+  es-toolkit@1.39.3: {}
 
   just-random-integer@4.2.0: {}
 
@@ -206,7 +206,7 @@ snapshots:
 
   radash@12.1.0: {}
 
-  remeda@2.22.6:
+  remeda@2.23.0:
     dependencies:
       type-fest: 4.41.0
 
