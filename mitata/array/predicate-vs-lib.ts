@@ -30,13 +30,10 @@ type Person = {
   age: number | null;
 };
 
-const oneMillionPeople: Person[] = Array.from(
-  { length: 1_000_000 },
-  (_, i) => ({
-    name: `Person ${i}`,
-    age: i % 2 === 0 ? i : null,
-  }),
-);
+const oneMillionPeople: Person[] = Array.from({ length: 1_000_000 }, (_, i) => ({
+  name: `Person ${i}`,
+  age: i % 2 === 0 ? i : null,
+}));
 
 summary(() => {
   bench("predicate", () => {

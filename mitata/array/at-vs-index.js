@@ -1,6 +1,6 @@
 import { run, bench, summary } from "mitata";
 
-const oneMillion = new Array(1_000_000).fill(0);
+const oneMillion = Array.from({ length: 1_000_000 }, (_, i) => i + 1);
 
 summary(() => {
   bench("at(index)", () => {
