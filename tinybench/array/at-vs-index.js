@@ -1,6 +1,6 @@
 import { Bench } from "tinybench";
 
-const oneMillion = new Array(1_000_000).fill(0);
+const oneMillion = Array.from({ length: 1_000_000 }, () => 0);
 
 const bench = new Bench({
   warmup: true,

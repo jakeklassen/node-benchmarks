@@ -1,6 +1,6 @@
 import { FORMAT_DEFAULT, suite } from "@thi.ng/bench";
 
-const data = new Array(100_000).fill(0).map((_, i) => Math.random() * i);
+const data = Array.from({ length: 100_000 }, (_, i) => Math.random() * i);
 
 suite(
   [

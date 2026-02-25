@@ -17,8 +17,7 @@ const radashResult = unique(data, (el) => el.name);
 const remedaResult = R.uniqueBy(data, (el) => el.name);
 
 console.assert(
-  lodashResult.length === radashResult.length &&
-    lodashResult.length === remedaResult.length,
+  lodashResult.length === radashResult.length && lodashResult.length === remedaResult.length,
   "All results should have the same length",
 );
 

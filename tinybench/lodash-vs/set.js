@@ -6,9 +6,7 @@ const bench = new Bench({
   warmup: true,
 });
 
-const data = Array.from({ length: 100_000 }, () =>
-  Math.floor(Math.random() * 100),
-);
+const data = Array.from({ length: 100_000 }, () => Math.floor(Math.random() * 100));
 
 assert(
   uniq(data).length === Array.from(new Set(data)).length,

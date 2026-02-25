@@ -1,8 +1,8 @@
 import { FORMAT_DEFAULT, suite } from "@thi.ng/bench";
 
-const tenThousand = new Array(10_000).fill(0);
-const oneHundredThousand = new Array(100_000).fill(0);
-const oneMillion = new Array(1_000_000).fill(0);
+const tenThousand = Array.from({ length: 10_000 }, () => 0);
+const oneHundredThousand = Array.from({ length: 100_000 }, () => 0);
+const oneMillion = Array.from({ length: 1_000_000 }, () => 0);
 
 suite(
   [
