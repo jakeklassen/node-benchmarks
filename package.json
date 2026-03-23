@@ -15,10 +15,10 @@
   },
   "dependencies": {
     "@faker-js/faker": "^10.3.0",
-    "@thi.ng/bench": "^3.6.41",
-    "arktype": "^2.1.29",
+    "@thi.ng/bench": "^3.6.44",
+    "arktype": "^2.2.0",
     "benchmark": "^2.1.4",
-    "es-toolkit": "^1.44.0",
+    "es-toolkit": "^1.45.1",
     "just-random-integer": "^4.2.0",
     "lodash-es": "^4.17.23",
     "mitata": "^1.0.34",
@@ -30,10 +30,10 @@
   "devDependencies": {
     "@types/benchmark": "^2.1.5",
     "@types/lodash-es": "^4.17.12",
-    "@types/node": "^25.3.0",
-    "oxfmt": "^0.35.0",
-    "oxlint": "^1.50.0",
-    "oxlint-tsgolint": "^0.15.0",
-    "typescript": "^5.9.3"
+    "@types/node": "^24.12.0",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "oxlint-tsgolint": "^0.17.1",
+    "typescript": "^6.0.2"
   }
 }

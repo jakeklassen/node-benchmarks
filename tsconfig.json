@@ -3,13 +3,13 @@
     "target": "ESNext",
     "module": "nodenext",
     "lib": ["ESNext", "DOM"],
+    "types": ["node"],
     "moduleResolution": "nodenext",
     "allowSyntheticDefaultImports": true,
     "noEmit": true,
     "allowJs": true,
     "checkJs": true,
-    "strict": true,
-    "baseUrl": "."
+    "strict": true
   },
   "include": ["**/*.js", "**/*.ts"],
   "exclude": ["node_modules"]
